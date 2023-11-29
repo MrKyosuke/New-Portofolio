@@ -10,7 +10,7 @@
 
         /* Configuration utk home page */
         .main-menu {
-            background-color: black;
+            background-color: rgb(52, 50, 50);
             color: aliceblue;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             height: 750px;
@@ -101,6 +101,10 @@
           align-items: center;
       }
 
+      .line-text{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
       /* Format buat line nya */
       /* .horizontal-line {
           width: 100px;
@@ -148,7 +152,7 @@
       .progress-bar-container {
           display: flex;
           flex-direction: column;
-          align-items: center;
+          align-items: start;
       }
 
       /* Format buat progress bar
@@ -163,6 +167,7 @@
         text-align: center;
         font-size: 10px;
         color: aliceblue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
 
       .progress-bar-html {
@@ -225,7 +230,7 @@
 
         .skills {
           margin-top: 50px;
-          margin-bottom: 20px;
+          margin-bottom: 50px;
           text-align: center;
           font-size: 35px;
       }
@@ -326,12 +331,16 @@
           text-align: center;
           margin-top: 20px;
         }
+
+        .nav{
+          background-color: rgb(255, 255, 255);
+        }
         
 
     </style>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0">
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" style="background-color: gray;">
 
   <div class="main-menu" id="home">
     <ul class="nav nav-pills d-flex flex-column flex-sm-row ">
@@ -379,7 +388,7 @@
 </div>
 
     <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-        <a class="navbar-brand" href="#">Please do explore !</a>
+        <a class="navbar-brand" href="#"></a>
         <ul class="nav nav-pills">
             <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
